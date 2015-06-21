@@ -1,0 +1,1 @@
+wget http://selenium-release.storage.googleapis.com/2.46/selenium-server-standalone-2.46.0.jar
