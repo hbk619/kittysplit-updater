@@ -1,0 +1,8 @@
+node_modules
+*.jar
+*.iml
+*.ipr
+*.log
+.*
+*.sh
+*.md
