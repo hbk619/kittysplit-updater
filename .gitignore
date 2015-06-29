@@ -1,5 +1,5 @@
 node_modules
-selenium-server-standalone-2.46.0.jar
+selenium-server-standalone*.jar
 .idea
 *.iml
 *.ipr
