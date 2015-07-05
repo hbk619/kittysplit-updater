@@ -39,5 +39,4 @@ Then:
 ## TO DO
 
 Check if person is already selected and not select them again.
-Modify creating an expense so it doesn't untick the person and creates in Ben's name.
 Create a setup endpoint to add the Kittysplit url?
