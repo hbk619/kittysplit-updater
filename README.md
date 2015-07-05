@@ -11,13 +11,27 @@ npm install
 `
 
 `
-selenium-server-standalone-2.46.0.jar
+java -jar selenium-server-standalone-2.46.0.jar
 `
 
 `
 npm start
 `
 
-## Urls
-/{person name} will load the hard coded kittly split and select the person for the current day (this will unselect them if they're already on that day!).
+## API
+/update/{person name} will load the hard coded kitty split and select the person for the current day (this will unselect them if they're already on that day!).
 
+## Docker
+
+You can create 2 docker containers with docker-compose and the supplied Dockerfile.
+
+To run against a local Docker instance:
+
+`
+docker-compose build
+`
+
+Then:
+
+`docker-compose up
+`
