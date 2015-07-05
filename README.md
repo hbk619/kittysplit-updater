@@ -20,6 +20,7 @@ npm start
 
 ## API
 /update/{person name} will load the hard coded kitty split and select the person for the current day (this will unselect them if they're already on that day!).
+/setup.html Form to set the KittySplit url and the driver for that kitty.
 
 ## Docker
 
