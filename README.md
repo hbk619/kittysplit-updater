@@ -36,6 +36,16 @@ Then:
 `docker-compose up
 `
 
+## Running in dev
+
+nodemon is a dev dependency so you can run:
+
+`
+node_modules/nodemon/bin/nodemon.js bin/www
+`
+
+to get live reload
+
 ## TO DO
 
 Check if person is already selected and not select them again.
