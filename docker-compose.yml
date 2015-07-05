@@ -1,0 +1,8 @@
+selenium:
+  image: selenium/standalone-firefox:2.46.0
+kittysplit:
+  build: .
+  ports:
+   - "3000:3000"
+  links:
+    - selenium:selenium
