@@ -49,4 +49,3 @@ to get live reload
 ## TO DO
 
 Check if person is already selected and not select them again.
-Create a setup endpoint to add the Kittysplit url?
