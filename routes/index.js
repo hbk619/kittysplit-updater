@@ -4,7 +4,7 @@ var kittySplit = require('../lib/kittysplit')();
 var http = require('http');
 
 
-router.get('/:person', function (req, res) {
+router.get('/update/:person', function (req, res) {
 	kittySplit.update(req.params.person);
 
 
