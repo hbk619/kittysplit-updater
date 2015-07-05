@@ -26,6 +26,6 @@ ADD . $KITTY_DIR
 ENV SELENIUM_REMOTE_URL=http://selenium:4444/wd/hub
 ENV PATH=$PATH:$NVM_DIR/current/bin
 
-ENTRYPOINT ["pm2", "--no-daemon", "start", "./bin/www"]
+ENTRYPOINT ["pm2", "--no-daemon", "start", "kitty.json"]
 CMD []
 EXPOSE 3000

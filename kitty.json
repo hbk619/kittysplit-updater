@@ -1,0 +1,7 @@
+{
+  "name": "KittySplit",
+  "script": "bin/www",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
